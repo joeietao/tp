@@ -48,10 +48,10 @@
 //    public static final String TAG_DESC_TEST = " " + PREFIX_TAG + VALID_TAG_TEST;
 //
 //    public static final String INVALID_NAME_DESC = " " + PREFIX_NAME; // empty string not allowed for names
-//    public static final String INVALID_DESCRIPTION_DESC = " " + PREFIX_DESCRIPTION + "Lorem ipsum dolor sit amet, " +
-//            "consectetur adipiscing elit. Sed metus diam, egestas sed ante pulvinar, fermentum dignissim arcu. Donec " +
-//            "pellentesque massa vel dolor blandit imperdiet. In bibendum justo urna, vitae venenatis magna dictum " +
-//            "quis. Proin erat curae."; // description should not be more than 255 characters
+//    public static final String INVALID_DESCRIPTION_DESC = " " + PREFIX_DESCRIPTION + "Lorem ipsum dolor sit amet, "
+//            + "consectetur adipiscing elit. Sed metus diam, egestas sed ante pulvinar, fermentum dignissim arcu. "
+//            + "Donec pellentesque massa vel dolor blandit imperdiet. In bibendum justo urna, vitae venenatis "
+//            + "magna dictum quis. Proin erat curae."; // description should not be more than 255 characters
 //    public static final String INVALID_DEADLINE_DESC = " " + PREFIX_DEADLINE + "2022/01/01"; // wrong date format
 //    public static final String INVALID_TAG_DESC = " " + PREFIX_TAG + "test*"; // '*' not allowed in tags
 //
