@@ -5,11 +5,11 @@ title: User Guide
 
 Harmonia is a **desktop app for managing tasks related to your academic life, optimized for use via a Command Line Interface** (CLI) while still having the benefits of a Graphical User Interface (GUI). If you can type fast, Harmonia can get your task management done faster than traditional GUI apps.
 
---------------------------------------------------------------------------------------------------------------------   
+--------------------------------------------------------------------------------------------------------------------
 ## Table of Contents
 - [Quick Start](#quick-start)
 - [Features](#features)
-  - [Adding a task: add](#adding-a-task-add) 
+  - [Adding a task: add](#adding-a-task-add)
   - [Listing all tasks: list](#listing-all-tasks-list)
   - [Deleting a task: delete](#deleting-a-task-delete)
   - [Locating a task: find](#locating-a-task-find)
@@ -30,14 +30,14 @@ Harmonia is a **desktop app for managing tasks related to your academic life, op
    ![Ui](images/Ui.png)
 5. Type the command in the command box and press Enter to execute it. (E.g type `list` to list down all the tasks)
 
---------------------------------------------------------------------------------------------------------------------   
+--------------------------------------------------------------------------------------------------------------------
 ## Features
 
 ### Adding a task: `add`
 
 Adds a task into the Harmonia.
 
-Format:  `add d/DESCRIPTION`  
+Format:  `add d/DESCRIPTION`
 Example: `add d/CS2103T tp meeting`
 
 ### Listing all tasks: `list`
@@ -117,17 +117,17 @@ Format: `exit`
 ### Saving the data
 
 Harmonia's data is saved in the hard disk automatically after any command changes the data. There is no need to save manually.
-    
---------------------------------------------------------------------------------------------------------------------   
+
+--------------------------------------------------------------------------------------------------------------------
 ## Command summary
 
-Action | Format, Examples
---------|------------------ 
-**Add** | `add d/DESCRIPTION` <br> e.g., `add d/read book`
-**Delete** | `delete INDEX`<br> e.g., `delete 3`
-**Edit** | `edit INDEX [d/DESCRIPTION] [t/TAG]`<br> e.g.,`edit 2 n/CS2101 meeting t/CS2101`
-**Mark**| `mark INDEX` <br> e.g., `mark 3`
-**Unmark**| `unmark INDEX` <br> e.g., `unmark 3`
-**List**| `list`
-**Find** | `find KEYWORD [MORE_KEYWORDS]` <br> `find t/[TAG]` <br> e.g., `find book` <br> e.g., `find book read` <br> e.g., `find t/CS2103T`
-**Exit** | `exit`
+| Action     | Format, Examples                                                                                                                  |
+|------------|-----------------------------------------------------------------------------------------------------------------------------------|
+| **Add**    | `add d/DESCRIPTION` <br> e.g., `add d/read book`                                                                                  |
+| **Delete** | `delete INDEX`<br> e.g., `delete 3`                                                                                               |
+| **Edit**   | `edit INDEX [d/DESCRIPTION] [t/TAG]`<br> e.g.,`edit 2 n/CS2101 meeting t/CS2101`                                                  |
+| **Mark**   | `mark INDEX` <br> e.g., `mark 3`                                                                                                  |
+| **Unmark** | `unmark INDEX` <br> e.g., `unmark 3`                                                                                              |
+| **List**   | `list`                                                                                                                            |
+| **Find**   | `find KEYWORD [MORE_KEYWORDS]` <br> `find t/[TAG]` <br> e.g., `find book` <br> e.g., `find book read` <br> e.g., `find t/CS2103T` |
+| **Exit**   | `exit`                                                                                                                            |
